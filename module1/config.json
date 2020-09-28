@@ -1,0 +1,5 @@
+{
+  "name": "Example Module",
+  "Dependency_ids": [],
+  "Output_ids": ["Example_Out1"]
+}
