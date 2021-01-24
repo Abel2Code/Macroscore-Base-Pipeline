@@ -7,12 +7,6 @@ class BaseModule:
         with open(config_path) as f:
             self.config = json.load(f)
 
-    def pollRunAndUpload(self, *args, **kwargs):
-        # TODO: POLL LOGIC
-        v = self.run(*args, **kwargs)
-        # TODO: UPLOAD LOGIC
-        return v
-
     # Should Update Results to location specified on CONFIG
     def run(self):
         pass
